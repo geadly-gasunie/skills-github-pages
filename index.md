@@ -10,12 +10,6 @@ This is my first website published with GitHub Pages. I'm learning how to create
 
 This is a place to share what I'm learning and the projects I'm working on. I'll add more as the site grows.
 
-## Posts
-
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url | relative_url }})
-{% endfor %}
-
 ## Thanks for stopping by
 
 I'm excited to get started. Check back soon to see what's new!
